@@ -8,6 +8,7 @@ negtive_path = "X://F_public//public//workspace//exchange//active_safety//linxun
 savepath = "X://F_public//public//workspace//exchange//active_safety//linxunan//mixup-pic//"
 posCnt = 0
 negCnt = 0
+
 negImglist = os.listdir(negtive_path)
 print(len(negImglist))
 for files in os.listdir(positive_path):
